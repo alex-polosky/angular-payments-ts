@@ -70,8 +70,6 @@ export class AbstractCreditCardFormComponent {
 
 }
 
-// https://github.com/angular/angular/issues/5415#issuecomment-253509453
-// Due to the fact that Outputs are not transferred, this is what I found to be able to copy them
 @Component({
     selector: 'payments-credit-card-form',
     templateUrl: 'credit-card-form.component.html',
