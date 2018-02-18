@@ -1,0 +1,13 @@
+# Node files
+node_modules
+npm-debug.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# TSC files
+lib
+
+# Dist files
+dist

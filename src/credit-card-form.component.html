@@ -1,0 +1,18 @@
+<form [formGroup]="creditCardForm">
+    <label>
+        <span>Cardholder name</span>
+        <input type="text" name="" [formControl]="creditCardForm.controls['name']" />
+    </label>
+    <label>
+        <span>Card number</span>
+        <input type="text" name="" [formControl]="creditCardForm.controls['number']" payments-card />
+    </label>
+    <label>
+        <span>Expiry</span>
+        <input type="text" name="" [formControl]="creditCardForm.controls['expiry']" payments-expiry />
+    </label>
+    <label>
+        <span>CVC</span>
+        <input type="text" name="" [formControl]="creditCardForm.controls['cvc']" payments-cvc />
+    </label>
+</form>
