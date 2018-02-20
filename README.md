@@ -4,7 +4,7 @@ An Angular Module that provides directives for *formatting* and *validating* for
 
 ### Credits
 
-I created this library after trying to utilize the original angular-payments package written by https://github.com/zumper (https://github.com/zumper/angular-payments).
+I created this library after trying to utilize the original angular-payments package written by https://github.com/laurihy (https://github.com/laurihy/angular-payments).
 
 I personally wanted to use the package with Ionic, and after much frustration of trying to figure out why I was receiving random errors, I realized that the last update was in approximattely 2015. As such, I determined that it would require a large rewrite, to convert the code over to Typescript and upgrade the angular version. I however did not include the original stripe dependency, as I could not find a way to dynamically check for the existance of the stripe library, and I did not want to make it a strict dependency.
 
