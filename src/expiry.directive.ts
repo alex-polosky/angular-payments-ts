@@ -122,7 +122,7 @@ export class AngularPaymentsExpiryDirective extends AbstractInputDirective {
         if (/^\d\d$/.test(newValue)) {
             e.preventDefault();
             if (newDigit > 12) {
-                this._elementValue = "0" + newValue + " / ";
+                this._elementValue = "0" + value + " / " + digit;
             }
             else {
                 this._elementValue = "" + newValue + " / ";
