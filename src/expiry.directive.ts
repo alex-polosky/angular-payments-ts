@@ -119,17 +119,13 @@ export class AngularPaymentsExpiryDirective extends AbstractInputDirective {
         let newValue = value + digit;
         let newDigit = parseInt(newValue, 10);
 
-        if (/^\d$/.test(newValue) && (newValue !== '0' && newValue !== '1')) {
-            e.preventDefault();
-            this._elementValue = "0" + value + " / " + digit;
-        }
-        else if (/^\d\d$/.test(newValue)) {
+        if (/^\d\d$/.test(newValue)) {
             e.preventDefault();
             if (newDigit > 12) {
-                this._elementValue = "0" + value + " / " + digit;
+                this._elementValue = "0" + newValue + " / ";
             }
             else {
-                this._elementValue = "" + value + " / " + digit;
+                this._elementValue = "" + newValue + " / ";
             }
         }
     }
