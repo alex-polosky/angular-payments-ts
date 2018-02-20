@@ -8,9 +8,9 @@
     "url": "https://github.com/alex-polosky"
   },
   "contributors": [],
-  "main": "dist/angular-payments.umd.js",
-  "module": "dist/angular-payments.esm.js",
-  "typings": "dist/angular-payments.d.ts",
+  "main": "angular-payments.umd.js",
+  "module": "angular-payments.esm.js",
+  "typings": "angular-payments.d.ts",
   "repository": {
     "type": "git",
     "url": "git://github.com/alex-polosky/angular-payments-ts.git"
