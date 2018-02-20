@@ -80,7 +80,7 @@ const _cardFormats: CardFormat[] = [
         luhn: true
     }, {
         type: 'mastercard',
-        pattern: /^2[1-4]/,
+        pattern: /^2/,
         format: _defaultFormat,
         inputFormat: _defaultInputFormat,
         length: [16],
