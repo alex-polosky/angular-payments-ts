@@ -73,7 +73,7 @@ export class AngularPaymentsCVCDirective extends AbstractInputDirective {
         let value = this._elementValue + e.key;
 
         let card = this._elementCardType;
-        let length = card != null ? card.cvcLength : 4;
+        let length = card != null ? card.cvcLength[card.cvcLength.length - 1] : 4;
 
         if (value.length <= length) {
             return;
