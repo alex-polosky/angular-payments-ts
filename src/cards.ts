@@ -79,6 +79,14 @@ const _cardFormats: CardFormat[] = [
         cvcLength: [3],
         luhn: true
     }, {
+        type: 'mastercard',
+        pattern: /^2[1-4]/,
+        format: _defaultFormat,
+        inputFormat: _defaultInputFormat,
+        length: [16],
+        cvcLength: [3],
+        luhn: true
+    }, {
         type: 'amex',
         pattern: /^3[47]/,
         format: /(\d{1,4})(\d{1,6})?(\d{1,5})?/,
