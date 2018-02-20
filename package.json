@@ -1,7 +1,7 @@
 {
   "name": "angular-payments-ts",
   "description": "Directive for formatting and validating credit card forms",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "homepage": "https://github.com/alex-polosky/angular-payments-ts",
   "author": {
     "name": "Alex Polosky",
